@@ -1,0 +1,29 @@
+body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    height: 100vh; /* Define a altura do corpo como 100% da altura da janela */
+    background-image: url('banda-leisure.jpg'); /* Insira o caminho da sua imagem de fundo aqui */
+    background-size: cover; /* Faz com que a imagem cubra toda a área do fundo */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Pode ser ajustado se você quiser menos espaço */
+    color: white; /* Muda a cor do texto para branco */
+    text-align: center; /* Centraliza o texto */
+    background: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para destacar o texto */
+    padding: 20px; /* Adiciona preenchimento interno */
+    border-radius: 10px; /* Arredonda os cantos do contêiner */
+}
+
+
+.about-container p {
+    font-size: 20px; /* Tamanho do texto do parágrafo */
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas para melhor leitura */
+    max-width: 800px; /* Limita a largura do parágrafo */
+    margin: 0 auto; /* Centraliza o parágrafo */
+}

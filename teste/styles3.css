@@ -1,0 +1,53 @@
+body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    background-color: red; /* Define o fundo como vermelho */
+    background-image: url('estrela.png'); /* Insira o caminho da sua imagem de estrela aqui */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    height: 100vh; /* Define a altura do corpo como 100% da altura da janela */
+}
+
+.logo-container {
+    position: absolute; /* Posiciona a logo */
+    top: 20px; /* Distância do topo */
+    left: 20px; /* Distância da esquerda */
+}
+
+.tour-title {
+    text-align: center; /* Centraliza o título */
+    color: white; /* Cor do texto */
+    font-size: 48px; /* Tamanho do título */
+    margin-top: 100px; /* Espaçamento do topo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para melhor legibilidade */
+}
+
+.tour-list {
+    display: flex;
+    flex-direction: column; /* Coloca os itens em coluna */
+    align-items: center; /* Centraliza os itens */
+    margin-top: 50px; /* Espaçamento do topo */
+}
+
+.tour-item {
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente para os itens */
+    padding: 15px; /* Espaçamento interno */
+    margin: 10px; /* Espaçamento entre os itens */
+    border-radius: 5px; /* Cantos arredondados */
+    width: 300px; /* Largura fixa para os itens */
+    text-align: center; /* Centraliza o texto dentro do item */
+}
+
+.ticket-button {
+    display: inline-block; /* Faz o botão ficar em linha */
+    margin-top: 10px; /* Espaçamento acima do botão */
+    padding: 10px 20px; /* Preenchimento do botão */
+    background-color: rgb(168, 16, 16); /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    transition: background-color 0.3s; /* Efeito de transição */
+}
+
+.ticket-button:hover {
+    background-color: darkred; /* Muda a cor ao passar o mouse */
+}
